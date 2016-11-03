@@ -2,7 +2,7 @@
 
 ## Server
 
-1. Add the following Maven dependencies
+- Add the following Maven dependencies
 
 ```
         <dependency>
@@ -25,12 +25,13 @@
             <groupId>org.lognet</groupId>
             <artifactId>grpc-spring-boot-starter</artifactId>
             <version>0.0.7</version>
-        </dependency>`
+        </dependency>
 ```
-2. Maven repository needed
+
+- Maven repository needed
 
 ```
-    <repositories>
+  <repositories>
         <repository>
             <id>jcenter</id>
             <url>https://jcenter.bintray.com/</url>
@@ -38,13 +39,13 @@
     </repositories>
 ```
 
-3. Create .proto file for request, response and service(s) IDL. Keep the
+- Create .proto file for request, response and service(s) IDL. Keep the
 generated files separate
 
-4. Annotate your server implementation classes with @GRpcService. 
+- Annotate your server implementation classes with @GRpcService. 
 A server will be auto-configured and services will be auto-registered.
 
-5. Run maven build to generate server and client stubs.
+- Run maven build to generate server and client stubs.
 
 
 ## Client
