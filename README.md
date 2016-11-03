@@ -2,7 +2,7 @@
 
 ## Server
 
-1 Add the following Maven dependencies
+1. Add the following Maven dependencies
 
 ```
         <dependency>
