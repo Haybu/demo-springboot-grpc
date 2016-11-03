@@ -1,0 +1,10 @@
+**/target/
+*/target/
+target/
+**/.idea/
+*/.idea/
+.idea/
+**/.mvn/
+*/.mvn/
+.mvn/
+
